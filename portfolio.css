@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+
+}
+
+    body{
+        background-color: rgb(11, 11, 26);
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(16, 16, 70);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        color: #fff;
+        margin: 0 23px;
+    }
+
+    nav ul li a{
+        color: inherit;
+        list-style: none;
+        text-decoration:none ;
+    }
+
+    .navleft{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    h1{
+        display: flex;
+        /* height: 100vh; */
+        margin-top:200px;
+        margin-left:30px;
+        color: #fff;
+        padding: 10px;      
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        transition-property: unset;
+    } 
+
+    h2,p{
+        color: white;
+        margin-left:30px;
+        padding: 10px;
+    }
+    
+    li:hover{
+        color: rgb(158, 194, 194);
+        }
+ 
+    .images{
+        border-radius:5px;
+        margin-left: 40px;
+    }
+
+    #element{
+        color: white;
+        font-size: 20px;
+        padding:10px;
+        margin-left: 30px;
+        margin-left: 60px;
+    }
+
+    #one{
+        color: rgb(112, 98, 194);
+        width: 500px;
+    }
+
+    .hey {
+    display: flex; 
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Space out left and right sections */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.left {
+    flex: 1; 
+}
+
+.left h1 {
+    font-size: 40px;
+    margin-top: 0; 
+    margin-left: 60px;
+}
+
+.right {
+    flex: 1; 
+    text-align: center; 
+}
+
+.right img {
+    max-width: 100%; 
+    max-height: 500px;
+    border-radius: 5px; 
+    margin-top: 50px;
+}
+
+hr{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h3{
+    color: grey;
+}
+
+
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pro1,.pro2,.pro3,.pro4{
+    color: grey;
+    border: 0.5px solid beige;
+    padding:auto;
+    margin: 10px;
+    border-color: #1f203b;
+    border-radius: 10px;
+}
+
+.pro1head, .pro2head,.pro3head, .pro4head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+footer{
+    font-size: 20px;
+    background-color: rgb(9, 9, 48);
+}
+
+.footer li  a{
+    display: flex;
+    list-style-type: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+    color: grey;
+}
+
